@@ -1,0 +1,55 @@
+.ime{
+    right: 0;
+    position: absolute;
+    margin-right: 62px;
+}
+
+.GoogleSlika{
+    position: relative; 
+    width: 100px;
+    margin-right: 660px;
+    margin-left: 274px; 
+    margin-top: 30px;   
+}
+.kvadratek{
+    width: 600px;
+    height: 30px; 
+    margin-left: 290px;
+    margin-right: 100px;  
+    margin-top: 20px;
+}
+.2kvadratka {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 200px; 
+    right: 100px;    
+    display: inline-block;
+    margin-left: 200px; 
+    margin-right: 600px; 
+}
+.Lnoga{
+    height: 40px;
+    line-height: 1090px;
+    margin-left: 20px;
+    display: inline-block;
+    /*premik na levo stran zaslona*/
+    position: fixed;
+    left: 10px;
+    top: 50px;
+} 
+.Dnoga{ 
+    background-origin: 
+    height: 50px;
+    width:  30px; 
+    width: auto; 
+    line-height: 1090px;
+    margin-left: 240px;
+    display: inline-block;
+    /*premik na desno stran zaslona*/
+    position: fixed; 
+    left: 600px;
+    top: 50px;   
+    float: left;
+} 
+

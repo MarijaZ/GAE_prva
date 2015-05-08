@@ -1,0 +1,50 @@
+/*Iskalnik*/
+input{
+    color: skyblue;
+    border: 1px dashed;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    float: left;
+}
+/*Barva ozadja*/
+body{
+    background-color: yellow;
+}
+/*Slika*/
+img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #4682b4;
+}
+h1 {
+    color: mediumvioletred;
+    text-align: center;
+    font-family: cursive;
+    position: absolute;
+}
+.barva{
+    color: blueviolet;
+    font-family: sans-serif;
+}
+.sp{
+    color: crimson;
+    font-family: sans-serif;
+}
+.drugaBarva{
+    color: aqua;
+    font-family: cursive;
+}
+.tretjaBarva{
+    color: teal;
+    font-family:cursive;
+}
+p:first-child{
+    color:green;
+    font-family: sans-serif;}
+p:nth-child(2){
+    font-family:cursive;
+    color: green;}
+ 
