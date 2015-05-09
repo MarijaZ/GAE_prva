@@ -1,0 +1,77 @@
+.prviNaslov{
+     font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    margin-left: 500px;
+}
+.btn-group {
+    position: static; 
+} 
+.strizenje {
+    font-family: cursive;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+.barvanje {
+    font-family: cursive;
+    margin-left: 80px;
+    margin-right: 12px;
+}
+.Nega{
+  font-family: cursive;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.narocilo {
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    margin-left: 150px
+
+}
+.col--4 {
+    position: relative;
+    margin-left: 10px;
+}
+.input-group-addon {
+    position: relative;
+    margin-left: 30px;
+    
+}
+.tabela{
+    position: relative;
+    margin-left: 600px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-top: -70px;
+
+}
+.list-group {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 300px;  
+}
+.body {
+    border: 10px dotted black;
+    padding: 35px;
+    background-color: yellowgreen;
+}
+<!--.slika_na_koncu{
+    position: absolute;
+    background-image: url(https://scontent-fra.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/555908_1392683570965824_624706620_n.jpg?oh=a31218bb019c9dda1d02c0a640d35cc0&oe=55A124E1);
+    margin-top: 18px;
+    padding-right: 500px;
+} 
+-->
+.navigacija{
+    position: relative;
+    right: 20px;
+    left: 960px;
+
+}
+.vzporedno {
+    position: absolute;
+    margin-top: 18px;
+    margin-right: 100px;
+}

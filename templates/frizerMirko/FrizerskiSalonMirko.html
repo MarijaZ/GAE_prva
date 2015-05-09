@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Frizerski salon </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="FrizerskiSalon.css">
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="bootstrap.js"></script>
+    </head>  
+    <body class="body">
+     <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Frizerski salon Mirko</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Kaj nudimo</a></li>         
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Naroci se<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Google+</a></li>  
+                    </ul>
+                    </li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#contact" data-toggle="modal">O nas</a></li>   
+            </nav>  
+        <div class="nabvar nabvar-default navbar-static-bottom">
+        
+            <div class="container">
+                <p class="navbar-text pull-left" >Side built by Marija Znidarsic</p>
+                <a href="https://www.youtube.com/watch?v=MclzBuU38B0" class="navbar-button btn-danger btn pull-right">Subscribe on Youtube</a>
+            </div>
+        </div>
+       <div class="modal fade" id="contact" role="dialog">
+         <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <p>Kontaktirajte nas!</p>
+                <h4>Frizerski salon Mirko</h4>
+            </div>
+            <div class="modal-body">
+              <p>Dunajska 200</p>
+                <p>1000 Ljubljana</p>
+                <p>tel.st.: 01/543-765</p>
+                <p>tel.st.: 031- 789-789</p>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default">
+                    <a class="btn btn-default" data-dismiss="modal">Zapri</a>
+                </a>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="http://i.ytimg.com/vi/zugLQF3uLmk/maxresdefault.jpg" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="http://i.ytimg.com/vi/onNcXZ3h058/maxresdefault.jpg" alt="...">
+                </div>  
+                 <div class="carousel-caption">
+                    ...
+                  </div>
+                <div class="item">
+                 <img src="http://www.ekvarner.info/frizer-nina/132/72336977.jpg" alt="salon">
+                  </div>
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                ...
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <br>
+            <h1 class="prviNaslov">Kaj nudimo?</h1>
+            <br>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+              <div class="btn-group" role="group">
+                <h1 class="Nega">Nega las</h1>
+                <button type="button" class="btn btn-default">
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnVVnooQdXCyA_FxK1oDUIT1fWP91QB9Y2IYzFG4wVHCJuPlcz" alt="Nega las" class="img-responsive"></button>
+              </div>
+              <div class="btn-group" role="group">
+                  <h2 class="barvanje">Barvanje</h2>
+                <button type="button" class="btn btn-default">
+                   <img src="https://s-media-cache-ak0.pinimg.com/236x/43/49/17/434917f4bccbd628ebfee53464523664.jpg" alt="Barvanje" class="img-responsive">
+                </button>
+              </div>
+              <div class="btn-group" role="group">
+                <br>
+                <h3 class="strizenje">Strizenje</h3>
+                <button type="button" class="btn btn-default">
+                 <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk_EKs0Wz69p7ZxKcQJI9iCljSp_slTizT-ZYkN-PFjSYrDM-u" class="img-responsive">
+              </div>
+            </div> 
+            </div>
+            <div class="narocilo">
+             <h3 class="...">Naroci se:</h3>
+                <input type="text" class="vpis" placeholder="Ime in priimek"> <br>
+                <input type="text" class="vpis1" placeholder="Telefonska stevilka"> <br>
+                <input type="text" class="vpis2" placeholder="Termin"><br>
+                <input type="text" class="vpis3" placeholder="Ostalo, zelje glede priceske..."> <br>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                            <input type="checkbox" aria-label="..."></in></input> 
+                            </span> 
+                    <input type="text" class="form-control" placeholder="Strinjam se, da je Mirko najboljsi frizer!"></input>
+                        </div>
+                    </div> <br>
+                    <button type="submit" class="btn btn-default">Poslji</button>
+                    </div>
+                </div><br>
+                <div class="tabela">
+              <table style="width:100px" border="4"; >
+            <thead>
+                 <tr>
+                     <td><bold>Dan</bold></td>
+                     <td>Ponedeljek</td>
+                     <td>Torek</td>
+                     <td>Sreda</td>
+                     <td>Cetrtek</td>
+                     <td>Petek</td>
+                     <td>Sobota</td>
+                     <td>Nedelja</td>
+                </tr> 
+                <tr>
+                     <td><bold>Delovne ure </bold></td>
+                     <td>8.00-16.00</td>
+                     <td>10.00-18.00</td>
+                     <td>8.00-16.00</td>
+                     <td>8.00-16.00</td>
+                     <td>12.00-20.00</td>
+                     <td>8.00-16.00</td>
+                     <td>8.00-12.00</td>
+                </tr> 
+                <p>*Ob praznikih velja nedeljski urnik.</p>
+            </thead>
+        </table>
+    </div>
+    <div class="panel panel-primary">
+              <a href="#" class="list-group-item active"
+        <h1 class="list-group-item-heading"> Kaksen je salon in ekipa?</h1>
+        <p class="list-group-item-text">Salon je prostoren in domac in v njem delajo prijazne in sposobne frizerke, ki oblikujejo priceske z obcutkom in domisljijo. <br> Smo relativno mlad kolektivn, vedno nasmejani, prijazni. Imamo dolgoletne izkusnje z Schwarzkopf v dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o. smo pa letos septembra zaceli delati z profesionalno lasno kozmetiko Indola, katero oni distriburajo.<br></p>
+      </a><br>
+            <div class="panel panel-primary">
+          <a href="#" class="list-group-item active"
+            <h1 class="list-group-item-heading">Ali sprejemate hisne ljubljencke?</h1>
+            <p class="list-group-item-text">Hisni ljubljencki so pri nas vedno dobrodosli.</p>
+          </a>
+          </div>
+         <div class="panel panel-primary">
+          <a href="#" class="list-group-item active"
+            <h1 class="list-group-item-heading">Imate kaksne nagrade iz tekmovanj?</h1>
+            <p class="list-group-item-text">Seveda, nazadnje smo bili v Londonu.</p>
+          </a>
+          </div>
+    </div>
+    <div>
+         <p>Kontaktirajte nas!</p>
+         <h4>Frizerski salon Mirko</h4>
+    </div>
+    <div class="vzporedno">
+    <div class="kontakt_na_koncu">
+         <p>Dunajska 200</p>
+         <p>1000 Ljubljana</p>
+         <p>tel.st.: 01/543-765</p>
+         <p>tel.st.: 031- 789-789</p>
+    </div>
+        <div class="slika_na_koncu">
+           <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/v/t1.0-1/p160x160/555908_1392683570965824_624706620_n.jpg?oh=5dbff4a7e8d5b8ed4dfb6a9b76540144&oe=55B653D2&__gda__=1438275682_382906607d0f5ea792191a2b67d364b8"><br>
+        </div>
+        <div class="navigacija">
+            <h1>Navigacija</h1>
+            <a>Kaj nudimo</a><br>
+            <a>Naroci se</a><br>
+            <a>Pogosta vprasanja</a><br>
+            <a>O nas</a><br>
+        </div>
+    </div>
+
+                    
+    </body>
+</html>
