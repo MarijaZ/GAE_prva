@@ -5,14 +5,15 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Hello Marija!')
+        self.response.write('fakebook')
 
-class AboutHandler(webapp2.RequestHandler):
+class FakebookHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('O nas')
+        self.response.write('profil na fakebooku')
 
 app = webapp2.WSGIApplication([
     ("/", MainHandler)
-    ('/about', AboutHandler),
+    ('/fejstbok', FakebookHandler),
 ], debug=True)
 #GAE_prva
+
